@@ -165,7 +165,7 @@ textarea {
 #things {
     text-decoration: none;
     color: white;
-    background-image: url(/assets/images/things-background.jpg); /*pexels - Zebras in Savannah, Bruno Almeida*/
+    background-image: url(assets/images/things-background.jpg); /*pexels - Zebras in Savannah, Bruno Almeida*/
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -176,14 +176,14 @@ textarea {
 #contact {
     color:white;
     height: 55vh;
-    background-image: url(/assets/images/contact-background.jpg); /*pexels - brown, wooden surface, Share Textures*/
+    background-image: url(assets/images/contact-background.jpg); /*pexels - brown, wooden surface, Share Textures*/
 }
 
 
 #places {
     text-decoration: none;
     color: white;
-    background-image: url(/assets/images/places-background.jpg); /*pexels - Brown Sand Under Blue Sky, Jessie Crettenden*/
+    background-image: url(assets/images/places-background.jpg); /*pexels - Brown Sand Under Blue Sky, Jessie Crettenden*/
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
