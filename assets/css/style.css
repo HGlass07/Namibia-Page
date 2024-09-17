@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    flex: 1.5;
+    display: flex;
+    padding:20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; 
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.action-buttons button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#overview {
+    position: relative;
+    height: 70vh; 
+    overflow: hidden; 
+    color: white; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1; 
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-position:bottom;
+}
+
+.overlay-content {
+    position: relative;
+    z-index: 1; 
+    padding: 2rem;
+    background: transparent; 
+    max-width: 800px; 
+}
+
+h1 {
+    font-size: 4rem; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+}
+
+
+#info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+#info-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 350px;
+    min-height: 300px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+    text-align: left; 
+}
+
+.container form label {
+    font-weight: bold; 
+}
+
+.container form input, .container form textarea {
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+}
+
+.container form button {
+    align-self: flex-start; 
+    padding: 0.75rem 1.5rem; 
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container ul li {
+    margin-top: 20px;
+    list-style-type: none;
+
+}
+
+textarea {
+    resize: none;
+    width:300px;
+    height: 70px;
+}
+
+#things {
+    text-decoration: none;
+    color: white;
+    background-image: url(/assets/images/things-background.jpg); /*pexels - Zebras in Savannah, Bruno Almeida*/
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 55vh; 
+    width: 100%; 
+}
+
+#contact {
+    color:white;
+    height: 55vh;
+    background-image: url(/assets/images/contact-background.jpg); /*pexels - brown, wooden surface, Share Textures*/
+}
+
+
+#places {
+    text-decoration: none;
+    color: white;
+    background-image: url(/assets/images/places-background.jpg); /*pexels - Brown Sand Under Blue Sky, Jessie Crettenden*/
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 55vh; 
+    width: 100%; 
+}
+
+#info-heading {
+    padding:20px;
+}
+
+#visit-times {
+    align-content: center;
+    margin: 20px;
+}
+
+#visit-times ul li {
+    text-decoration: dotted;
+}
+
+
+footer {
+    background-color: #f4f4f4; 
+    padding: 1rem 2rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: auto; 
+    text-align: center;
+}
+
+

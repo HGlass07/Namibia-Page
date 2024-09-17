@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Namibia Safari</title>
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="images/logo-placeholder.png" alt="SafariSource Logo">
+            <img src="assets/images/safari-logo.png" alt="SafariSource Logo">
         </div>
         <nav>
             <ul>
@@ -27,24 +27,47 @@
 
     <main>
         <section id="overview">
-            <h1>Namibia</h1>
-            <p>(abridged overview)</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis, quam sed ultrices tristique, diam eros bibendum dui, quis viverra metus lectus a nibh.</p>
+            <video autoplay muted loop id="background-video">
+                <source src="/assets/images/intro-background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay-content">
+                <h1>Namibia</h1>
+                <p>
+                    Clothing, language, art, music, sport, food and religion are only a 
+                    few things which defines a Namibia safari. There are at least 11 major 
+                    ethnic groups which characterize Namibia’s very rich and diverse culture. 
+                    Namibia is also home to the distinctive Khoisan “click” which is spoken 
+                    by the indigenous people of Southern Africa.
+                    <br>
+                    <br>
+                    Proud Namibians however, aren’t 
+                    the only thing one can experience whilst on a safari in this rugged Southern 
+                    African Country. Namibia might well be Africa’s most beautiful Country with 
+                    the most interesting places such as vast landscapes and safari locations 
+                    ranging from unworldly and unrealistic sand dunes, to glorious mountain ranges, 
+                    and river-carved canyons to golden-grassed plains of the Kalahari stretching 
+                    as far as the eye can see.
+                </p>
+            </div>
         </section>
+        
 
         <div id="info-wrapper">
             <section id="info-section">
-                <div class="container">
-                    <h3>Things to Do</h3>
+                <div class="container" id="things">
+                    <h3 id="info-heading">Things to Do</h3>
                     <ul>
-                        <li>Item One</li>
-                        <li>Item Two</li>
-                        <li>Item Three</li>
+                        <li><img src="assets/things-icon1.png" alt="Icon"> Item One</li>
+                        <li><img src="assets/things-icon2.png" alt="Icon"> Item Two</li>
+                        <li><img src="assets/things-icon3.png" alt="Icon"> Item Three</li>
+                        <li><img src="assets/things-icon4.png" alt="Icon"> Item Four</li>
+                        <li><img src="assets/things-icon5.png" alt="Icon"> Item Five</li>
                     </ul>
                 </div>
 
-                <div class="container">
-                    <h3>Contact Us</h3>
+                <div class="container" id="contact">
+                    <h3 id="info-heading">Contact Us</h3>
                     <form>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name">
@@ -59,21 +82,48 @@
                     </form>
                 </div>
 
-                <div class="container">
-                    <h3>Places to Visit</h3>
+                <div class="container" id="places">
+                    <h3 id="info-heading">Places to Visit</h3>
                     <ul>
-                        <li>Item One</li>
-                        <li>Item Two</li>
-                        <li>Item Three</li>
+                        <li><img src="assets/places-icon1.png" alt="Icon"> Item One</li>
+                        <li><img src="assets/places-icon2.png" alt="Icon"> Item Two</li>
+                        <li><img src="assets/places-icon3.png" alt="Icon"> Item Three</li>
+                        <li><img src="assets/places-icon4.png" alt="Icon"> Item Four</li>
+                        <li><img src="assets/places-icon5.png" alt="Icon"> Item Five</li>
                     </ul>
                 </div>
+            </section>
+        </div>
+        <br>
+        <div>
+            <section id="visit-times">
+                <h3>
+                    Best Time to Visit
+                </h3>
+                <br>
+                <ul>
+                    <li>
+                        The best time to visit Namibia to see wildlife will certainly be in the dry season 
+                        (June to October) when animals gather close to scarce water sources in the National Parks. 
+                        June and July nights can be as low as freezing in some parts of the country. January and 
+                        February are usually the hottest months of the year making the visit unpleasant to some.
+                    </li>
+                    <li>
+                        Rainfall usually occurs inland during the summer from November to April in the form of 
+                        thundershowers. Bird watching will be best during this rainy season. Mosquito numbers 
+                        however increase during this period as well.
+                    </li>
+                    <li>
+                        So, when is the best time to visit Namibia? The short answer is, Namibia is a year-round 
+                        destination. It all depends on where you go and what you want to see, just pack accordingly.
+                    </li>
+                </ul>
             </section>
         </div>
     </main>
 
     <footer>
-        <p>© 2024 Namibia Safaris. All rights reserved.</p>
+        <p>© 2024 Safari Source. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
