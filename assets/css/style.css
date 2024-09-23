@@ -195,13 +195,43 @@ textarea {
     padding:20px;
 }
 
-#visit-times {
-    align-content: center;
-    margin: 20px;
+#visit-times-section {
+    background-color: rgb(197, 228, 238);
+
+    background-image: linear-gradient(rgb(197, 228, 238), rgb(185, 235, 237));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    padding: 2rem 0; /* Adds space around the section */
 }
 
-#visit-times ul li {
-    text-decoration: dotted;
+.visit-times-content {
+    width: 70%; /* Limits the section to 70% of the total width */
+}
+
+.visit-times-content h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem; /* Adds space between heading and list */
+}
+
+#visit-times {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+#visit-times li {
+    padding: 1rem;
+    margin-bottom: 1rem; /* Adds space between list items */
+    border-bottom: 1px dotted #333; /* Creates a dotted underline for each list item */
+    text-align: left; /* Aligns the text within each bullet point to the left */
+}
+
+#visit-times li:last-child {
+    border-bottom: none; /* Removes border from the last item */
 }
 
 
